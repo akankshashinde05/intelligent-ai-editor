@@ -1,0 +1,38 @@
+# Node & Frontend
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.log
+
+# Python & FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+
+# SQLite Database & Runtime Data
+data/*.db
+data/*.db-wal
+data/*.db-shm
+!data/.gitkeep
+
+# Rust & Tauri
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# Environment & OS
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
